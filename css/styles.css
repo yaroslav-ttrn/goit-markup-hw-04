@@ -315,6 +315,10 @@ h6 {
   height: auto;
 }
 
+.link-logo {
+  fill: #f4f4fd;
+}
+
 .team-subtitle-wrap {
   padding: 32px 0;
 }
@@ -327,10 +331,6 @@ h6 {
 .team-description {
   text-align: center;
   margin-bottom: 8px;
-}
-
-.link-logo {
-  fill: #f4f4fd;
 }
 
 /* .team-link {
@@ -360,7 +360,6 @@ h6 {
   height: 40px;
   border-radius: 90px;
   display: flex;
-  fill: #f4f4fd;
   justify-content: center;
   align-items: center; */
 }
@@ -479,8 +478,10 @@ h6 {
   max-width: 264px;
 }
 
-/* .footer-links-container {
-} */
+.footer-links {
+  width: 40px;
+  height: 40px;
+}
 
 .footer-container {
   margin-right: 120px;
