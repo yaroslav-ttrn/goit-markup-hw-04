@@ -339,7 +339,7 @@ h6 {
 }
 
 .team-link-items {
-  background-color: #4d5ae5;
+  background-color: #4d5ae5:
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -352,7 +352,7 @@ h6 {
 
 .team-link-items:hover,
 .team-link-items:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
   /* width: 40px;
   height: 40px;
   border-radius: 90px;
