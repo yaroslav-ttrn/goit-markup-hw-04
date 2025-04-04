@@ -446,6 +446,11 @@ h6 {
   padding: 100px 0;
 }
 
+.footer-wrap {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -474,11 +479,6 @@ h6 {
 /* .footer-links-container {
 } */
 
-.footer-wrap {
-  display: flex;
-  align-items: baseline;
-}
-
 .footer-container {
   margin-right: 120px;
 }
@@ -498,14 +498,16 @@ h6 {
   gap: 16px;
 }
 
+.footer-icon {
+  fill: #f4f4fd;
+}
+
 .footer-links-items {
   display: flex;
   background-color: #4d5ae5;
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
-  display: flex;
-  fill: #f4f4fd;
   justify-content: center;
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
